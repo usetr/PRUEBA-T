@@ -1,0 +1,1 @@
+“Creé una función encargada de consumir la API de Los Simpson usando fetch. La función recibe los parámetros de paginación, construye dinámicamente la URL, realiza la petición HTTP, verifica que la respuesta sea correcta y finalmente retorna los datos en formato JSON para mostrarlos en la interfaz.”
