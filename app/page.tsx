@@ -17,10 +17,10 @@ export default async function Home({ searchParams }: HomeProps) {
     <main className="min-h-screen p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <header className="flex flex-col items-center justify-center mb-12 text-center">
         <h1 className="text-4xl md:text-6xl font-black text-simpsons-yellow drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] tracking-wider mb-4 stroke-black text-stroke-2">
-          THE SIMPSONS
+          LOS SIMPSONS
         </h1>
         <p className="text-xl text-gray-600 font-medium max-w-2xl">
-          Explore the characters of Springfield in this interactive technical test.
+          Explora los personajes de Springfield
         </p>
       </header>
 
@@ -38,10 +38,7 @@ export default async function Home({ searchParams }: HomeProps) {
         )}
       </section>
 
-      <footer className="text-center text-gray-400 text-sm mt-12 pb-8">
-        <p>Built with Next.js 14, Tailwind CSS & TypeScript</p>
-        <p className="mt-1">Data provided by The Simpsons API</p>
-      </footer>
+     
     </main>
   );
 }
